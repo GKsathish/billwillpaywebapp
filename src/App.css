@@ -1,0 +1,26 @@
+.my-background {
+  background: rgb(34, 115, 82);
+  background: linear-gradient(90deg, rgba(34, 115, 82, 1) 25%, rgba(20, 19, 77, 1) 100%);
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.my-form {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.my-form input {
+  font-weight: 700;
+  ;
+}
+
+.my-button {
+  font-size: 14px;
+}

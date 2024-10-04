@@ -1,0 +1,167 @@
+.form-group {
+    position: relative;
+    font-size: 12px;
+}
+
+.form-group span {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #1f6d5c;
+    cursor: pointer;
+}
+
+.form-control {
+    background-color: white;
+    border-color: unset;
+    border: unset;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid black !important;
+}
+
+.form-control:focus {
+    background-color: white;
+    border-color: unset;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid black !important;
+}
+
+.modal-body .nav-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    background-color: #fafafa;
+}
+
+.modal-body .nav-tabs .nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.modal-body .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.modal-body .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 3px solid #1f6d5c;
+    background-color: #fafafa;
+}
+
+.modal-body .nav-justified .nav-item {
+    white-space: nowrap;
+}
+
+.modal-body .nav-tabs {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.modal-body .nav-tabs::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-body .tab-content {
+    padding: 10px;
+}
+
+.portals a img {
+    max-width: 70px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: white;
+}
+
+.portals a .active {
+    background-color: #227352c2;
+}
+
+.portals a {
+    font-size: 14px;
+
+}
+
+.modal {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.modal-body .plans .title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.modal-body .plans .description {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.modal-body .plans .validity {
+    font-weight: 300;
+    font-size: 12px;
+    color: #999;
+}
+
+.modal-body .plans .plan-type {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+
+.modal-body .plans button {
+    font-size: 14px;
+    font-weight: 500;
+    float: right;
+}
+
+.modal-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.my-form button {
+    font-size: 14px;
+
+}
+
+.counter p {
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.counter span {
+    background-color: #1f6d5c;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    margin-top: -10px;
+}
+
+.count-user h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.count-user span {
+    font-weight: 700;
+}
+
+.count-user img {
+    width: 100px;
+}

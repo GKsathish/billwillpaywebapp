@@ -1,0 +1,118 @@
+.main h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+
+.main h2,
+.main h3 {
+    font-weight: 700;
+    font-size: 43px;
+}
+
+
+.main {
+    width: 100%;
+    margin: auto;
+    /* padding-top: 50px; */
+    background-color: white;
+    height: 100%;
+    position: relative;
+}
+
+.main img {
+    /* max-width: 70px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: white; */
+}
+
+.main img:hover {
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #227352c2; */
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main select {
+    width: -webkit-fill-available;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.main .react-multi-carousel-list li span {
+    font-size: 8px;
+}
+
+.btn-success {
+    background-color: #1f6d5c !important;
+}
+
+.btn-danger {
+    background-color: #fe0100 !important;
+}
+
+b {
+    color: #fe0100;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.home .row {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.home-icon {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+}
+
+.home p {
+    margin: auto;
+    align-items: center;
+    font-weight: 600;
+}
+
+/* .react-multi-carousel-item img {
+    padding: 50px 10px 0px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 10px;
+} */
+
+.react-multi-carousel-track .image {
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
+}
+
+.react-multi-carousel-track img {
+    width: 100%;
+    height: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
+}
+
+.react-multi-carousel-track [aria-hidden=true] {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.react-multiple-carousel__arrow {
+    min-width: 48px !important;
+    min-height: 48px !important;
+}
